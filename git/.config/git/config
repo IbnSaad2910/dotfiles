@@ -1,0 +1,14 @@
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+[pull]
+	rebase = true
+[init]
+	defaultBranch = master
+[user]
+	name = IbnSaad2910
+	email = alif2910@gmail.com
+[push]
+	autoSetupRemote = true

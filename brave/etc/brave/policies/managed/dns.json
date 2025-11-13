@@ -1,0 +1,4 @@
+{
+  "DnsOverHttpsMode": "secure",
+  "DnsOverHttpsTemplates": "https://one.one.one.one/dns-query"
+}
