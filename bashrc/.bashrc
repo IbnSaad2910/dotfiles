@@ -13,7 +13,6 @@ source ~/.local/share/omarchy/default/bash/rc
 export PATH="$HOME/.config/composer/vendor/bin:$PATH"
 eval "$(~/.local/bin/mise activate bash)"
 alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
-export DOTNET_ROOT=$HOME/.dotnet
-export PATH=$PATH:$DOTNET_ROOT:$DOTNET_ROOT/tools
+export PATH=$HOME/.dotnet/tools:$PATH
 
 fastfetch
