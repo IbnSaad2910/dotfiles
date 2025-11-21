@@ -15,4 +15,4 @@ eval "$(~/.local/bin/mise activate bash)"
 alias sail='sh $([ -f sail ] && echo sail || echo vendor/bin/sail)'
 export PATH=$HOME/.dotnet/tools:$PATH
 
-fastfetch
+# fastfetch

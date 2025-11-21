@@ -25,6 +25,7 @@ keybind = super+control+shift+alt+arrow_down=resize_split:down,100
 keybind = super+control+shift+alt+arrow_up=resize_split:up,100
 keybind = super+control+shift+alt+arrow_left=resize_split:left,100
 keybind = super+control+shift+alt+arrow_right=resize_split:right,100
+keybind = ctrl+w=close_surface
 
 # Slowdown mouse scrolling
 mouse-scroll-multiplier = 0.95
